@@ -1,0 +1,22 @@
+.hero{
+    width: 100%;
+}
+
+.hero__container{
+    width: 45%;
+    min-width: 45%;
+    height: 500px;
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.hero__title-series{
+    width: 100%;
+}
+
+.hero__description{
+    color: white;
+}

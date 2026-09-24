@@ -1,6 +1,19 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
 }
 
+section{
+    padding: 10px 40px;
+}
+
+.background{
+    background-image: url('../imagens/background_banner\ 1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 500px;
+    z-index: ;
+}
