@@ -4,10 +4,11 @@ main{
     height: 100vh;
 }
 
-section{
-    padding: 10px 40px;
+body{
+    background-color: black;
 }
 
+<<<<<<< HEAD
 .background{
     background-image: url('../imagens/background_banner\ 1.png');
     background-size: cover;
@@ -16,4 +17,11 @@ section{
     width: 100%;
     min-height: 500px;
     z-index: ;
+=======
+.app__background{
+    background: url(../imagens/background_banner\ 1.png) fixed no-repeat center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+>>>>>>> hero
 }
