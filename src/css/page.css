@@ -45,7 +45,7 @@
 /*===HERO===*/
 .hero{
     width: 100%;
-    height: 600px;
+    height: 500px;
     min-height: 500px;
     padding: 10px 40px;
     display: flex;
@@ -74,4 +74,23 @@
     width: 100%;
     display: flex;
     gap: 10px;
+}
+
+/*MINHA LISTA*/
+
+.minha-lista{
+    width: 100%;
+}
+
+.minha-lista__container{
+    padding: 20px 20px;
+}
+
+.minha-lista__subtitle{
+    color: rgb(196, 194, 194);
+    margin-bottom: 10px;
+}
+
+.minha-lista__series{
+    width: 100%;
 }
