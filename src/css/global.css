@@ -21,6 +21,11 @@ body{
     background-size: cover;
 }
 
+.lista-series-slide{
+    width: 1200px;
+    position: relative;
+}
+
 .btn__primary{
     padding: 8px 20px;
     border-radius: 4px;
@@ -48,10 +53,6 @@ body{
     color: white;
 }
 
-.lista-series{
-    width: 100%;
-}
-
 .lista-series__container{
     padding: 20px 20px;
 }
@@ -65,15 +66,19 @@ body{
     display: flex;
     width: 100%;
     gap: 5px;
+    overflow: hidden;
+    padding: 10px;
 }
 
 .lista-series__item{
+    min-width: 257px;
+    min-height: 152px;
     border: 1px solid transparent;
     transition: transform 0.3s ease-in-out, border 0.3s;
 }
 
 .lista-series__item:hover{
-    transform: scale(1.03);
+    transform: scale(1.06);
     border: 1px solid white;
 
 }
