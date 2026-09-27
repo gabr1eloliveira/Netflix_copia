@@ -91,6 +91,27 @@
     margin-bottom: 10px;
 }
 
-.minha-lista__series{
+.minha-lista__content{
+    display: flex;
     width: 100%;
+    gap: 5px;
 }
+
+.minha-lista__item{
+    border: 1px solid transparent;
+    transition: transform 0.3s ease-in-out, border 0.3s;
+}
+
+.minha-lista__item:hover{
+    transform: scale(1.03);
+    border: 1px solid white;
+
+}
+
+.minha-lista__item img{
+    width: 100%;
+    height: 100%;
+}
+
+/*EM ALTA*/
+
