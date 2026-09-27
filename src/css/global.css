@@ -21,11 +21,6 @@ body{
     background-size: cover;
 }
 
-.lista-series-slide{
-    width: 1200px;
-    position: relative;
-}
-
 .btn__primary{
     padding: 8px 20px;
     border-radius: 4px;
@@ -51,6 +46,18 @@ body{
 .btn__secondary a{
     text-decoration: none;
     color: white;
+}
+
+.lista-series-slide{
+    min-width: 1879px;
+    position: relative;
+    background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 10) 0%,
+        rgba(0, 0, 0, 0.2) 100%,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.8) 100%
+        );
 }
 
 .lista-series__container{
@@ -86,6 +93,61 @@ body{
 .lista-series__item img{
     width: 100%;
     height: 100%;
+}
+
+.lista-series-slide__content{
+    display: flex;
+    width: 2900px;
+    gap: 5px;
+    overflow: hidden;
+    padding: 10px;
+    flex-direction: row;
+    transition: tranform 0.3s ease-in-out;
+}
+
+.lista-series-slide__item{
+    min-width: 257px;
+    min-height: 152px;
+    border: 1px solid transparent;
+    transition: transform 0.3s ease-in-out, border 0.3s;
+}
+
+.lista-series-slide__item:hover{
+    transform: scale(1.06);
+    border: 1px solid white;
+
+}
+
+.lista-series-slide__item img{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-slide {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background: transparent;
+    color: white;
+    font-weight: bolder;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    z-index: 1;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-slide:hover{
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+#prev {
+    left: 33px;
+}
+#next {
+    right: 23px;
 }
 
 
