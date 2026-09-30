@@ -9,11 +9,6 @@
 
 .navbar__logo{
     width: 100px;
-    height: 30px;
-}
-
-.navbar__logo{
-    width: 100px;
     min-width: 100px;
     height: 30px;
     min-height: 30px;
@@ -31,12 +26,26 @@
     text-decoration: none;
     font-size: 0.9rem;
 }
+.navbar-list__item a:hover{
+    color: white
+}
 
 .navbar-user{
     display: flex;
     align-items: center;
-    color: white;
     gap: 15px;
+}
+
+.navbar-user i{
+    color: white;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out, color 0.2s;
+}
+
+.navbar-user i:hover{
+    color: rgb(196, 194, 194);
+    transform: scale(1.05)
 }
 
 .navbar__avatar-user{
@@ -181,6 +190,10 @@
     font-size: 0.9rem;
 }
 
+.footer-list__item a:hover{
+    color: white;
+}
+
 .footer__social{
     display: flex;
     width: 100%;
@@ -190,4 +203,9 @@
 .footer__social i{
     color: rgb(196, 194, 194);
     font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.footer__social i:hover{
+    color: white;
 }

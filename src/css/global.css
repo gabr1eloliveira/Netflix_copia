@@ -27,12 +27,20 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+.btn__primary:hover{
+    background-color: rgb(196, 194, 194);
+    transform: translateY(2px);
 }
 
 .btn__primary a{
     text-decoration: none;
     color: black;
 }
+
+
 
 .btn__secondary{
     padding: 8px 20px;
@@ -41,6 +49,12 @@ body{
     outline: none;
     cursor: pointer;
     background-color: gray;
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+}
+
+.btn__secondary:hover{
+    background-color: rgb(156, 154, 154);
+    transform: translateY(2px);
 }
 
 .btn__secondary a{
