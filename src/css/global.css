@@ -1,5 +1,6 @@
 main{
     width: 100%;
+    overflow: hidden;
 }
 
 body{
@@ -47,6 +48,19 @@ body{
     color: white;
 }
 
+.btn__tercery{
+    padding: 8px 20px;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn__tercery a{
+    text-decoration: none;
+    color: white;
+}
+
 .lista-series-slide{
     min-width: 1879px;
     position: relative;
@@ -60,7 +74,7 @@ body{
 }
 
 .lista-series__container{
-    padding: 20px 20px;
+    padding: 20px 30px;
 }
 
 .lista-series__title{
@@ -72,7 +86,6 @@ body{
     display: flex;
     width: 100%;
     gap: 5px;
-    overflow: hidden;
     padding: 10px;
 }
 
@@ -96,9 +109,8 @@ body{
 
 .lista-series-slide__content{
     display: flex;
-    width: 2900px;
-    gap: 5px;
-    overflow: hidden;
+    width: 100%;
+    gap: 5px;  
     padding: 10px;
     flex-direction: row;
     transition: tranform 0.3s ease-in-out;

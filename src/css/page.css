@@ -149,24 +149,45 @@
 
 .rodape{
     width: 100%;
+    min-height: 300px;
+    padding: 10px;
 }
 
-.footer__social{
-    color: rgb(196, 194, 194);
+.footer-container{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+    gap: 40px;
 }
 
 .footer-list-content{
-    display: flex;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-list{
     display: flex;
-    justify-content: space-around;
     flex-direction: column;
     list-style: none;
+    gap: 10px;
 }
 
-.footer-list__item{
+.footer-list__item a{
+    text-decoration: none;
     color: rgb(196, 194, 194);
+    font-size: 0.9rem;
+}
+
+.footer__social{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+
+.footer__social i{
+    color: rgb(196, 194, 194);
+    font-size: 1.5rem;
 }
